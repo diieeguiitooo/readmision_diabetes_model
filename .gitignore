@@ -1,0 +1,26 @@
+# Datos: se descargan del repositorio readmision_diabetes_eda con scripts/descargar_datos.py
+data/*.csv
+
+# Copias de seguridad manuales de los notebooks
+notebooks/_backup/
+
+# Contexto privado de trabajo con Claude Code
+CLAUDE.md
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
